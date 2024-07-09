@@ -16,7 +16,7 @@ app.use(
   cors({
     credentials: true,
     origin: true,
-    origin: ["helixcrmclient-kartiksahu55s-projects.vercel.app"],
+    origin: ["https://helixcrmclient-kartiksahu55s-projects.vercel.app"],
   })
 );
 app.use(cookieParser());
