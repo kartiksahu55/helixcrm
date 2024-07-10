@@ -27,7 +27,7 @@ const SignUp = () => {
   const sendOtpApi = async (phone) => {
     try {
       setIsloading(true);
-      const response = await axios.post(SEND_OTP_API, {
+      const response = await axios.post("https://helixcrmserver.vercel.app/api/v1/user/signup", {
         keyToGenerateOtp: CLIENT_SECRET_KEY_TO_SEND_OTP,
         phone,
         OTPType: "bulkV2",
