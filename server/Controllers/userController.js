@@ -7,8 +7,8 @@ const cookieOption = {
   path: "/",
   maxAge: 5 * 60 * 60 * 1000,
   httpOnly: true,
-  secure: false,
-  // sameSite: "none",
+  secure: true,
+  sameSite: "none",
 };
 
 //Start Generate and Send OTP----------

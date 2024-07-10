@@ -55,7 +55,7 @@ const columns = [
   {
     title: "Email",
     dataIndex: "email",
-    width: "200px",
+    width: "230px",
   },
   {
     title: "Sales Representative",

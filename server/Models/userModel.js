@@ -1,6 +1,9 @@
 import { Schema, model } from "mongoose";
 import bcrypt from "bcrypt";
 import Jwt from "jsonwebtoken";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const userSchema = new Schema(
   {
@@ -150,7 +153,6 @@ userSchema.methods = {
       }
     );
   },
-
   // Compare password function methode
   comparePassword: async function (plainTextPassword) {
     return await bcrypt.compare(plainTextPassword, this.password);
