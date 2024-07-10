@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: ["https://helixcrm.vercel.app"],
+    origin: "https://helixcrm.vercel.app"
   })
 );
 app.use(cookieParser());

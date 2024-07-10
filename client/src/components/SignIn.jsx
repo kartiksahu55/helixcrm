@@ -6,10 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, Navigate } from "react-router-dom";
 
 import { SIGNIN_API } from "../apiDetails";
-import {
-  fetchUserData,
-  isUserLoggedIn,
-} from "../slices/user/userDataSlice";
+import { fetchUserData, isUserLoggedIn } from "../slices/user/userDataSlice";
 import Button from "./UI/Button";
 import CardWhite from "./UI/CardWhite";
 import Loader from "./UI/Loader/Loader";

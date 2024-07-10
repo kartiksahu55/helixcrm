@@ -5,7 +5,7 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "description": "Spectical Asset App is CRM to manage leads.",
+  "description": "Helix CRM App is CRM to manage leads.",
   "icons": [
     {
       "src": "/icons/android-chrome-192x192.png",

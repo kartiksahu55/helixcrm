@@ -1,6 +1,6 @@
 import "./index.css";
 
-import { SpeedInsights } from '@vercel/speed-insights/react';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Button, ConfigProvider, Space } from "antd";
 import ReactDOM from "react-dom/client";
 import { Toaster } from "react-hot-toast";
@@ -18,7 +18,7 @@ const theme = {
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
-    <ConfigProvider theme={theme}>
+    <ConfigProvider theme={theme}> 
       <BrowserRouter>
         <App />
         <Toaster />
