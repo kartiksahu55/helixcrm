@@ -1,5 +1,6 @@
 import "./index.css";
 
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Button, ConfigProvider, Space } from "antd";
 import ReactDOM from "react-dom/client";
 import { Toaster } from "react-hot-toast";
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <BrowserRouter>
         <App />
         <Toaster />
+        <SpeedInsights/>
       </BrowserRouter>
     </ConfigProvider>
   </Provider>,
