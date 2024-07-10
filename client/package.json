@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
+    "@vercel/speed-insights": "^1.0.12",
     "antd": "^5.12.5",
     "antd-img-crop": "^4.18.0",
     "axios": "^1.6.2",
